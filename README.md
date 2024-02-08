@@ -20,6 +20,7 @@ It is necessary to go through:
 - Generic Clock Controller – to understand what the clock module (which is the clock generator AND the clock multiplexer/channels together) does, how it needs to be set up and connected to clock sources and how the module clocks peripherals, what we need to enable
 - Power Management – to understand how the interface between the CPU and the peripherals (the APBx and AHB buses) are clocked and why, what we need to enable
 - System control – to understand, how to set up the clock sources and what we need to enable
+
 I also recommend reading up on clock domain crossing on just to get a hang of why it is so problematic that we have almost everything in the SAM on different – mostly asynchronous – clock domains.
 
 ## Particularities
